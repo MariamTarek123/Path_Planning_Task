@@ -39,7 +39,7 @@ class PathPlanning:
 
         """  color ==1 (blue)
              color ==0 (yellow)
-             if both cones exist (2) the car should go in the middle (midpoint)
+             if both cones exist the car should go in the middle (midpoint)
              if no cones exist (0) the car will drive straight
              if 1 cone exists (1) the car will drive a bit offset from that side
          """
