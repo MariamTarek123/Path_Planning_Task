@@ -107,16 +107,14 @@ class PathPlanning:
         dy = center_y - car_y
         new_yaw = math.atan2(dy, dx)
 
-        # --- Step 1: Go straight for 2 meters ---
+        #  Go straight for 2 meters 
         straight_distance = 2.0
         steps = 0.5
         straight_steps = int(straight_distance / steps)
         path = []
-
-        # Compute new heading direction toward the target (center_x, center_y)
-        dx = center_x - car_x
-        dy = center_y - car_y
-        new_yaw = math.atan2(dy, dx)
+    
+        
+    
 
         # Generate path
         for i in range(num_steps):
